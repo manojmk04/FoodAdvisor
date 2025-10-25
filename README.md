@@ -40,7 +40,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Add your Google API Key in a .env file
-echo "GOOGLE_API_KEY=your_api_key_here" > .env
+GOOGLE_API_KEY=your_api_key_here
 
 # Run the app
 streamlit run app.py
